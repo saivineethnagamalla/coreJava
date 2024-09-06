@@ -1,13 +1,13 @@
-package methodOverinding;
+package methodOverriding;
 
-public class TestingMethodOver {
+public class AnimalTest extends AnimalMethod {
 
-	public static void main(String[] args) {
-		AnimalMethod animalMethod = new AnimalMethod("Mamals", "OnEarth");
-		System.out.println(animalMethod.con());
-		
-		AnimalTest animalTest = new AnimalTest("Mamals", "OnEarth");
-		System.out.println(animalTest.con());
+	public AnimalTest(String category, String livesOn) {
+		super(category, livesOn);
+	}
+
+	public String con() {
+		return super.livesOn + super.category;
 	}
 
 }
