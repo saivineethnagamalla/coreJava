@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListCollection {
 
@@ -16,6 +17,7 @@ public class ArrayListCollection {
 		System.out.println(list.get(1));
 		
 		System.out.println(list);
+		
 	
 
 	}

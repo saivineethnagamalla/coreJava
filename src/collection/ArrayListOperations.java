@@ -13,9 +13,9 @@ public class ArrayListOperations {
 		a1.add(20);
 		a1.add(30);
 		a1.add(40);
-//		a1.remove(0);
-//		a1.add(0, 50);
-//		a1.set(1, 60);
+		a1.remove(0);
+		a1.add(0, 50);
+		a1.set(1, 60);
 		a1.add(5, 80);
 		a1.add(70);
 		if (a1.contains(80)) {
